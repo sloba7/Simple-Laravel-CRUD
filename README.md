@@ -11,36 +11,40 @@ git clone https://github.com/sloba7/Simple-Laravel-CRUD.git
 ```
 Navigate to the project directory:
 
-bash
-Copy code
+```php
 cd user-management-app
+```
+
 Install the project dependencies using Composer:
 
-bash
-Copy code
+```php
 composer install
+```
 Copy the .env.example file and rename it to .env:
 
-bash
-Copy code
+```php
 cp .env.example .env
+```
+
 Generate a new application key:
 
-bash
-Copy code
+```php
 php artisan key:generate
+```
+
 Update the .env file with your database credentials and other necessary configurations.
 
 Run the database migrations:
 
-bash
-Copy code
+```php
 php artisan migrate
+```
+
 Start the development server:
 
-bash
-Copy code
+```php
 php artisan serve
+```
 Open your web browser and access the application at http://localhost:8000.
 
 # Usage
